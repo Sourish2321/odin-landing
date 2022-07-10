@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+} 
+
+/* heading */
+#heading {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+
+.navbar {
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+}
+
+.navbar-links {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar-links li {
+    display: inline;
+}
+
+#title {
+    display: flex;
+}
+
+
+.text h1 {
+    font-size: 48px;
+}
+
+.text button {
+    width: 7rem;
+    height: 2rem;
+    background-color: #3882f6;
+    border: #3882f6;
+    border-radius: 1rem;
+    color: #1f2937;
+}
+
+.image {
+    flex-basis: 25rem;
+}
+
+/* that random people that you see also */
+.random-info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.people {
+    display: flex;
+}
+
+/* quote from god */
+.quote {
+    background-color: #e5e7eb;
+    margin-top: 3rem;
+    padding: 5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* IDIOTIC SIGN UP THING */
+
+#signup {
+    background-color: #3882f6;
+    display: flex;
+    margin: 15rem;
+    padding: 2rem;
+    border-radius:  1rem;
+    color: #f9faf8;
+    justify-content: center;
+    gap: 20rem;
+}
+
+.btn-sign {
+    width: 7rem;
+    height: 2rem;
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 1rem;
+    color: #f9faf8;
+}
+
+/* The Almighty Footer */
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: x-large;
+}
